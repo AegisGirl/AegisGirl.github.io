@@ -1,0 +1,9 @@
+:root{--hg:#0b1120;--karte:#121a2e;--text:#e6ecf7;--leise:#93a3c0;--akzent:#7fb2ff;--rot:#ff8f8f;--gelb:#ffd479}
+*{box-sizing:border-box}body{margin:0;background:var(--hg);color:var(--text);font:17px/1.65 "Segoe UI",system-ui,sans-serif}
+nav,main,footer{max-width:760px;margin:0 auto;padding:16px}nav a{color:var(--akzent);text-decoration:none;font-weight:600;letter-spacing:.04em}
+.kopf h1{font-size:44px;margin:24px 0 4px;letter-spacing:.12em}.kopf p{color:var(--leise);margin:0 0 28px}
+.karte{display:block;background:var(--karte);border:1px solid #1f2b47;border-radius:14px;padding:18px 20px;margin:0 0 16px;color:var(--text);text-decoration:none}
+.karte:hover{border-color:var(--akzent)}.karte h2{margin:0 0 4px;font-size:22px}.datum{color:var(--leise);font-size:14px;margin:0 0 10px}
+article h1{font-size:32px;line-height:1.25;margin:20px 0 6px}video{width:100%;max-height:80vh;border-radius:12px;background:#000;margin:8px 0 18px}
+.marke{border-radius:8px;padding:8px 12px;font-size:14px}.marke.abgewiesen{background:#3a1820;color:var(--rot)}.marke.ungeprueft{background:#3a3016;color:var(--gelb)}.marke.schublade{background:#1d2436;color:var(--leise)}
+.leise{color:var(--leise)}footer{color:var(--leise);font-size:13px;border-top:1px solid #1f2b47;margin-top:40px}
